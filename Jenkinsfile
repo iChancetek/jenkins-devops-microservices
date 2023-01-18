@@ -5,4 +5,3 @@ node {
 		echo "Test"
 	}
     
-}
