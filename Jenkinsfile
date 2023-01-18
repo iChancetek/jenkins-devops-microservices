@@ -3,17 +3,17 @@ pipeline {
 	Stages {
 		stage ('Build') {
 			steps (
-				ssh "Build"
+				sh "Build"
 			)
 		}
         stage ('Test') {
 			steps (
-				ssh "Test"
+				sh "Test"
 			)
 		}
 		stage ('Test Intergration') {
 			steps (
-				ssh "Test Intergration"
+				sh "Test Intergration"
 			)
 		}
 
