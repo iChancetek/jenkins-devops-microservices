@@ -13,7 +13,7 @@ pipeline {
 		}
 		stage ('Test Intergration') {
 			steps (
-				sh 'ech Test Intergration'
+				sh 'echo Test Intergration'
 			)
 		}
 
