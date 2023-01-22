@@ -37,11 +37,11 @@ pipeline {
 		//			sh "mvn failsafe:intergration-test failsafe:verify"
 		//		}
 		//	}	
-		stage ('Package') {
-			steps {
-				sh "mvn package -DskipTests"
-			}
-		}
+		// stage ('Package') {
+		// 	steps {
+		// 		sh "mvn package -DskipTests"
+		// 	}
+		// }
 		stage ('Build Docker Image') {
 			steps {
 			//	"docker build -t ichancetek/currency-exchange-devops:$env.BUILD_TAG"
