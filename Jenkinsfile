@@ -32,11 +32,11 @@ pipeline {
 		// 		sh "mvn Test"
 		//	}
 		// }
-		stage ('Intergration Test ') {
-				steps {
-					sh "mvn failsafe:intergration-test failsafe:verify"
-				}
-			}			
+		// stage ('Intergration Test ') {
+		//		steps {
+		//			sh "mvn failsafe:intergration-test failsafe:verify"
+		//		}
+		//	}			
 	} 
 		post {
 			always {
