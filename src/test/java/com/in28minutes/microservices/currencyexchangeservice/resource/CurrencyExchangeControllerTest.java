@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.currencyexchangeservice.resource;
+package com.ichancetek.microservices.currencyexchangeservice.resource;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;

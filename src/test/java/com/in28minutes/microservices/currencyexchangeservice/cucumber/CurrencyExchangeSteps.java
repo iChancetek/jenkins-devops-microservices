@@ -1,5 +1,5 @@
 
-package com.in28minutes.microservices.currencyexchangeservice.cucumber;
+package com.ichancetek.microservices.currencyexchangeservice.cucumber;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

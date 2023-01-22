@@ -1,4 +1,4 @@
-package com.in28minutes.microservices.currencyexchangeservice;
+package com.ichancetek.microservices.currencyexchangeservice;
 
 public class HelloWorld {
 
