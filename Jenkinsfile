@@ -24,7 +24,8 @@ pipeline {
 		}
 		stage ('Compile') {
 			steps {
-				sh "mvn clean compile"
+				// sh "mvn clean compile"
+				   sh "mvn clean"
 			}
 		}
 		// stage ('Test') {
@@ -37,11 +38,11 @@ pipeline {
 		//			sh "mvn failsafe:intergration-test failsafe:verify"
 		//		}
 		//	}	
-		// stage ('Package') {
-		// 	steps {
-		// 		sh "mvn package"
-		// 	}
-		// }
+		stage ('Package') {
+			steps {
+				sh "mvn package"
+			}
+		}
 		stage ('Build Docker Image') {
 			steps {
 			//	"docker build -t ichancetek/currency-exchange-devops:$env.BUILD_TAG"
