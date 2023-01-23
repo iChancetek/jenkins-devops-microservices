@@ -24,8 +24,8 @@ pipeline {
 		}
 		stage ('Compile') {
 			steps {
-				// sh "mvn clean compile"
-				   sh "mvn clean"
+				 sh "mvn clean compile"
+				   
 			}
 		}
 		// stage ('Test') {
